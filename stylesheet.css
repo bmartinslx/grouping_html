@@ -1,0 +1,119 @@
+body {
+   background-color: #fc3;
+   color: #333;
+   font-size: 18px;
+}
+
+h1 {
+   font-size: 50px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+   font-size: 30px;
+   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+p {
+   font-size: 18px;
+   font-style: italic;
+}
+
+ol {
+   margin: 20px;
+   padding: 20px;
+   color: blue;
+}
+
+fieldset {
+   background-color: whitesmoke;
+}
+
+/* 
+
++ + + + + Style for IDs and Classes + + + + + + + + + + +
+
+*/
+
+#id-title {
+   color: #fc3;
+   background: #353535;
+   padding: 10px;
+   margin: 20px;
+   font-size: 18px;
+}
+
+.class-title {
+   color: olive;
+   border: solid 1px pink;
+   padding: 40px 20px 10px;
+   text-align: center;
+   font-size: 1.2em;
+}
+
+.class-section-header {
+   color: orange;
+   border: solid 3px blue;
+   padding: 50px 30px 20px;
+   text-align: center;
+   font-size: 1.4em;
+}
+/*
+
++ + + + + + + Styles for the Descendant Selector + + + + + + + + +
+
+*/
+
+.primary-box {
+   background-color: white;
+   border: solid 10px #333;
+   padding: 20px;
+}
+
+/* Descendant selecto primary-box h2 */
+.primary-box h2 {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.secondary-box {
+   background-color: #333;
+   color: #fff;
+   padding: 10px;
+}
+
+/* Descendant selecto secondary-box p */
+.secondary-box p {
+   font-size: 14px;
+   font-style: normal;
+}
+
+.secondary-box p em {
+   color: #fc3fc3;
+}
+
+/*
+
++ + + + + + + Styles for the GROUPING Selector + + + + + + + + +
+
+*/
+
+/* This will put the content in the center of webpage */
+#main-container {
+   width: 960px;
+   margin: 0 auto;
+}
+.primary-box,
+.secondary-box {
+   margin: 20px 20px;
+}
+
+.inside-box {
+   border: solid 1px blue;
+}
+
+h2,
+h4 {
+   text-align: center;
+   border-bottom: solid 3px red;
+   padding: 0 0 10px;
+}
